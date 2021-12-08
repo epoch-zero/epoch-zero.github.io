@@ -1,0 +1,18 @@
+///
+/// _
+/// _
+/// _
+///
+
+/* Section/Article */
+
+	section, article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	@mixin color-section($p: null) {
+	}
+
+	@include color-section;
